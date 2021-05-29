@@ -15,17 +15,17 @@ All experimental results in our paper are saved as csv format in the file of "re
 
 If you want to generate synthetic data, please run the ipynb file `make_regression_dataset.ipynb`. Then the correspondingly synthetic datasets would be placed at file "datasets/synthetic/".
 
-#### How to get results
+### How to get results
 
 + To run the experiments of real datasets, please `run main_real_dataset_mosek.m`. 
 + To run the experiments of synthetic datasets, please `run main_synthetic_mosek.m`.
 
-#### How to plot the figures
+### How to plot the figures
 
 + To plot the average mean squared error (MSE) of different methods,  you can use the function `plot_mse(csvname)`, where "csvname" is the path of corresponding  MSE csv file. For example, `csvname = './result/wine_modest_None_mse.csv'`
 + To obtain the figures of time comparison, you can use the function `plot_time(csvname)`, where "csvname" is the path of corresponding  time csv file. For example, `csvname = './result/wine_modest_None_time.csv'`
 
-#### Citation
+### Citation
 
 If you found the provided code useful, please cite our work.
 
