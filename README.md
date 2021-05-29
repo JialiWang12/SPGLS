@@ -24,3 +24,15 @@ If you want to generate synthetic data, please run the ipynb file `make_regressi
 
 + To plot the average mean squared error (MSE) of different methods,  you can use the function `plot_mse(csvname)`, where "csvname" is the path of corresponding  MSE csv file. For example, `csvname = './result/wine_modest_None_mse.csv'`
 + To obtain the figures of time comparison, you can use the function `plot_time(csvname)`, where "csvname" is the path of corresponding  time csv file. For example, `csvname = './result/wine_modest_None_time.csv'`
+
+#### Citation
+
+If you found the provided code useful, please cite our work.
+`@misc{wang2021fast,
+      title={Fast Algorithms for Stackelberg Prediction Game with Least Squares Loss}, 
+      author={Jiali Wang and He Chen and Rujun Jiang and Xudong Li and Zihao Li},
+      year={2021},
+      eprint={2105.05531},
+      archivePrefix={arXiv},
+      primaryClass={math.OC}
+}`
