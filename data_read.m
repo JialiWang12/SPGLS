@@ -29,8 +29,7 @@ switch dataname
         const = 0.1; % the constant for normalization
         gamma_list = linspace(1e-3,0.75,40)';
         gamma_time = 0.5;
-        datasize_list = linspace(100,200,2)';
-%         datasize_list = linspace(150,1500,21)';
+        datasize_list = linspace(150,1500,21)';
     case {'insurance_modest','insurance_severe'}
         csvname = ['datasets/insurance.csv'];
         table = readtable(csvname);
