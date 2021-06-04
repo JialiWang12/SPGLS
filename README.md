@@ -32,7 +32,7 @@ If you found the provided code useful, please cite our work.
 ```
 @misc{wang2021fast,
       title={Fast Algorithms for Stackelberg Prediction Game with Least Squares Loss}, 
-      author={Jiali Wang and He Chen and Rujun Jiang and Xudong Li and Zihao Li},
+      author={Jiali Wang, He Chen, Rujun Jiang, Xudong Li, and Zihao Li},
       year={2021},
       eprint={2105.05531},
       archivePrefix={arXiv},
