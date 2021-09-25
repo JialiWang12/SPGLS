@@ -30,12 +30,18 @@ If you want to generate synthetic data, please run the ipynb file `make_regressi
 
 If you found the provided code useful, please cite our work.
 ```
-@misc{wang2021fast,
-      title={Fast Algorithms for Stackelberg Prediction Game with Least Squares Loss}, 
-      author={Jiali Wang, He Chen, Rujun Jiang, Xudong Li, and Zihao Li},
-      year={2021},
-      eprint={2105.05531},
-      archivePrefix={arXiv},
-      primaryClass={math.OC}
+@InProceedings{pmlr-v139-wang21d,
+  title = 	 {Fast Algorithms for Stackelberg Prediction Game with Least Squares Loss},
+  author =       {Wang, Jiali and Chen, He and Jiang, Rujun and Li, Xudong and Li, Zihao},
+  booktitle = 	 {Proceedings of the 38th International Conference on Machine Learning},
+  pages = 	 {10708--10716},
+  year = 	 {2021},
+  editor = 	 {Meila, Marina and Zhang, Tong},
+  volume = 	 {139},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {18--24 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v139/wang21d/wang21d.pdf},
+  url = 	 {https://proceedings.mlr.press/v139/wang21d.html}
 }
 ```
