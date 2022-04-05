@@ -55,7 +55,7 @@ optval = mu;
 
 
 D_quad = A - mu*B + lambda*C; 
-wful = [D_quad(1:n+3,1:n+3);[zeros(1,n+2) 1]]\[zeros(n+3,1); 1];
+wful = D_quad(1:end,1:end-1)\(-D_quad(:,end));
 w_opt = wful(1:n+1);
 
 
